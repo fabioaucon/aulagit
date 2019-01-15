@@ -12,3 +12,5 @@ console.log(typeof qualquer)
 let valor =''
 let numero = 1
 let pqp = false //produto quimico perigoso...kkk 
+
+// este comentário eu coloquei para testar a versão no git
