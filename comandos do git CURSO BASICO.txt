@@ -1,3 +1,5 @@
+git add [mome do arquivo] ou . para todos
+git commit -m "descrição"
 git status
 git log
 git log --decorate (Mostra todos os commites com informações dos autores e datas)
