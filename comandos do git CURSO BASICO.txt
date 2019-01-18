@@ -7,7 +7,23 @@ git log --author "NOME" (lista dos commits de um autor)
 git log shortlog (lista de commits por autores)
 git log shortlog -sn (mostra a qtd de commits de cada autor)
 git log --graph // commits em forma de gráfico
+
 git show [hash] (mostra o conteúdo que foi alterado no arquivo nesta versão)
+
+git diff (mostra as alterações nos arquivos antes de ADD, em modified,)
+git diff --name-only (mostra somente os nomes dos arquivos)
+
+git checkout [nome do arquivo] (desfaz aslterações no arquivo modificado desde que antes de ADD).
+
+git reset HEAD [nome do arquivo] (retorna o estágio do arquivo após ADD).
+
+
+
+
+
+
+
+
 
 
 
