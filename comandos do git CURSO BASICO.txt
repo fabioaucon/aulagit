@@ -53,6 +53,10 @@ Para subir ao repositório os arquivos
 git push origin master (origin é o reposotótrio no github e o master é o branch atual local)
 
 
+Para clonar um repostorio existente do github na maquina local
+git clone git@github.com:fabioaucon/aulagit.git (:repositorio - formado por usuario/nome reposotorio githib)
+
+
 
 
 
