@@ -1,5 +1,20 @@
+
+Incilizando o repositório
+
+1. Git init (inicializa a pasta atual no repositóri - vai criar a pasta GIT no diretório)
+
+
+Estados dos Arquivos
+1. Untracked (arquivo ainda é ignorado pelo GIT. Um noco arquivo)
+2. Unmodified (arquivo sem alteração)
+3. Modified (Arquivo foi editado e apresenta alteração)
+4. Staged (arquivo alterado foi ADDicionado pelo git para ser Commitado)
+5. Após o Commit volta ao estágio 2 (unmodified).
+
+
 git add [mome do arquivo] ou . para todos
 git commit -m "descrição"
+git commit -a (para ADD automaticamente)
 git status
 git log
 git log --decorate (Mostra todos os commites com informações dos autores e datas)
@@ -13,9 +28,28 @@ git show [hash] (mostra o conteúdo que foi alterado no arquivo nesta versão)
 git diff (mostra as alterações nos arquivos antes de ADD, em modified,)
 git diff --name-only (mostra somente os nomes dos arquivos)
 
-git checkout [nome do arquivo] (desfaz aslterações no arquivo modificado desde que antes de ADD).
+Desfazer coisas
 
+git checkout [nome do arquivo] (desfaz aslterações no arquivo modificado desde que antes de ADD e volta).
 git reset HEAD [nome do arquivo] (retorna o estágio do arquivo após ADD).
+git reset --soft [hash do ultimo commit que deseja manter. Que deseja voltar a ele.] (desfaz o commit sem alterar o arquivo. Volta para STAGED sem desfazer as alterações do arquivo)
+git reset --mixed [hash do ultimo commit que deseja manter. Que deseja voltar a ele.](desfaz o commit e volta para MODIFIED sem desfazer alterações do arquivo)
+get reset --hard [hash do ultimo commit que deseja manter. Que deseja voltar a ele.] (desfaz todo o commit e desfaz alterações no arquivo.)
+
+
+Como fazer o SSH com o GitHub
+https://help.github.com/articles/connecting-to-github-with-ssh/
+
+
+Sicnronizar o repositório local com o do GITHUB
+
+Aparace no pagina incial do repositprio os comandos
+Selecinbar SSH
+
+git push -u origin master
+
+
+
 
 
 
