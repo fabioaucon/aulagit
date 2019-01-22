@@ -45,9 +45,12 @@ Sicnronizar o repositório local com o do GITHUB
 
 Aparace no pagina incial do repositprio os comandos
 Selecinbar SSH
-
 git push -u origin master
 
+
+Para subir ao repositório os arquivos
+
+git push origin master (origin é o reposotótrio no github e o master é o branch atual local)
 
 
 
