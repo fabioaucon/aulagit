@@ -75,7 +75,30 @@ git rebase "nome do branch que vai juntar ao master"
 
 GitIgnore (para marcar arquivos que não devem ser enviados para repositório remoto)
 Deve-se criar um arquivo .gitignore e colocar dentro dele os arquivos que devem ser ignorados. Por exmplo: *.xls, teste.txt, *.txt, etc.
-Colocar um abaixo do outro
+Colocar um abaixo do outro.
+
+O GitHub tem alguns padrões de arquivos gitignore para cada linguagem de desenvolvimento.
+
+GIT STASH
+Marca aos arquivos como em andamento (WIP - Work In Progress) e não considera este arquivo como alterados no git status
+
+Para marcar como alterados, finalizando o estado de WIP, usar Git Stash apply.
+
+Git stash List (lista o que está nop stash)
+Git stash clear (limpa todos os stashs)
+
+
+ALIAS
+para configurar atalhos para os comandos mais usados. Por exemplo usar s para o git status
+
+git config --global alias.s status (config --global alisas.[atalho] [comando])
+
+
+GIT TAG
+git tag -a 1.00 -m "Versão de testes incial"
+git push origin master --tags (subir as tags)
+
+git tag (lista tags)  
 
 
 
