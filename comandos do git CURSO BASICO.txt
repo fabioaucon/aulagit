@@ -57,6 +57,29 @@ Para clonar um repostorio existente do github na maquina local
 git clone git@github.com:fabioaucon/aulagit.git (:repositorio - formado por usuario/nome reposotorio githib)
 
 
+Branch 
+gri branch (mostra os branchs atuais e marca o que você está trabalhando no momrnto)
+git checkout -b 'Nome do Novo Branch' (cria novo branch)
+git checkout "nome do Branch" (aceesar o branch)
+git  branch -D "nome do branch" (deleta um Branch)
+
+Para juntar os Barnches
+
+MERGE (cria commit novo juntando os branches) e REBASE (move amudança para o fim da fila sem COMMIT extra, deixa linear)
+
+git merge "nome do bracnh que vai juntar ao master"
+
+git rebase "nome do branch que vai juntar ao master"
+
+
+
+GitIgnore (para marcar arquivos que não devem ser enviados para repositório remoto)
+Deve-se criar um arquivo .gitignore e colocar dentro dele os arquivos que devem ser ignorados. Por exmplo: *.xls, teste.txt, *.txt, etc.
+Colocar um abaixo do outro
+
+
+
+
 
 
 
